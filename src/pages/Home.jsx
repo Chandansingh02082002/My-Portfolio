@@ -52,9 +52,9 @@ const Home = () => {
   const adjustPlaneForScreenSize = (width) => {
     if (width < 768) {
       return {
-        scale: [1.2, 1.2, 1.2],
-        position: [0, -1.5, -8],
-        rotation: [0, 15, 0]
+        scale: [3.2, 3.2, 3.2],
+        position: [0, -4.5, -8],
+        rotation: [0, 14, 0]
       };
     }
     return {
