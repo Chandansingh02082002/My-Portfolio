@@ -36,14 +36,14 @@ const Home = () => {
   const adjustIslandForScreenSize = (width) => {
     if (width < 768) {
       return {
-        scale: [0.75, 0.75, 0.75],
+        scale: [0.3, 0.3, 0.3],
         position: [0, -4.5, -16],
         rotation: [0.1, 4.7, 0]
       };
     }
     return {
       scale: [1, 1, 1],
-      position: [0, -6.5, -43],
+      position: [0, -12.5, -60],
       rotation: [0.1, 4.7, 0]
     };
   };
