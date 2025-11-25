@@ -36,14 +36,14 @@ const Home = () => {
   const adjustIslandForScreenSize = (width) => {
     if (width < 768) {
       return {
-        scale: [0.3, 0.3, 0.3],
+        scale: [0.75, 0.75, 0.75],
         position: [0, -4.5, -16],
         rotation: [0.1, 4.7, 0]
       };
     }
     return {
       scale: [1, 1, 1],
-      position: [0, -12.5, -60],
+      position: [0, -6.5, -43],
       rotation: [0.1, 4.7, 0]
     };
   };
@@ -52,9 +52,9 @@ const Home = () => {
   const adjustPlaneForScreenSize = (width) => {
     if (width < 768) {
       return {
-        scale: [3.2, 3.2, 3.2],
-        position: [0, -4.5, -8],
-        rotation: [0, 14, 0]
+        scale: [1.2, 1.2, 1.2],
+        position: [0, -1.5, -8],
+        rotation: [0, 15, 0]
       };
     }
     return {
