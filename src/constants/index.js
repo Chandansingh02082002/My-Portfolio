@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, bi,sih,logo1 } from "../assets/images";
 import {
     car,
     contact,
@@ -97,59 +97,50 @@ export const skills = [
 ];
 
 export const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+  {
+    title: "Smart India Hackathon Participant",
+    company_name: "Government of India (SIH 2023)",
+    icon: sih,  // Replace with any icon you prefer
+    iconBg: "#57cf77",
+    date: "August 2023",
+    points: [
+      "Participated in Smart India Hackathon 2023, contributing to problem-solving at a national-level innovation event.",
+      "Developed a working prototype of a Glass Cleaning Robot using hardware + software integration.",
+      "Collaborated in a multidisciplinary team, gaining strong teamwork and project execution experience.",
+      "Worked on brainstorming, prototyping, and presenting the final solution to evaluators.",
+    ],
+  },
+
+  {
+    title: "Full Stack Developer Intern",
+    company_name: "Board Infinity",
+    icon: bi,  // Replace icon if needed
+    iconBg: "#FFFFFF",
+    date: "June 2024 - July 2024",
+    points: [
+      "Completed summer training focused on MERN Stack (MongoDB, Express.js, React.js, Node.js).",
+      "Built end-to-end full stack projects including authentication systems, dashboards, and APIs.",
+      "Developed responsive UI components with React.js and integrated them with Node.js backend services.",
+      "Gained experience with database modeling, REST APIs, JWT authentication, and deployment.",
+      "Collaborated with peers and mentors, improving teamwork and problem-solving skills.",
+    ],
+  },
+
+  {
+    title: "Full Stack Developer (Self Projects)",
+    company_name: "Independent / Freelance",
+    icon: meta,
+    iconBg: "#a2d2ff",
+    date: "2023 - Present",
+    points: [
+      "Built multiple full-stack applications using React.js, Node.js, Express.js, and MongoDB.",
+      "Worked on real-world features such as user login, CRUD operations, admin dashboards, and API integration.",
+      "Implemented responsive design, component reusability, and optimized performance.",
+      "Actively improving skills through personal projects, online resources, and consistent learning.",
+    ],
+  },
 ];
+
 
 export const socialLinks = [
     {
@@ -171,11 +162,11 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl:threads ,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: '3-D Portfolio',
+        description: 'Developed a 3D portfolio website built with modern technologies to showcase projects, interactive models, and personal work—optimised for responsive viewing and engaging user experience.',
+        link: 'https://chandan-singh-chauhan-portfolio.vercel.app',
     },
     {
         iconUrl: threads,
