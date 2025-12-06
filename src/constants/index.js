@@ -171,9 +171,9 @@ export const projects = [
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Resumind',
+        description: 'AI-powered resume analyzer with real-time scoring, keyword insights, and improvement suggestions.',
+        link: 'https://resumind-three-murex.vercel.app/auth?next=/',
     },
     {
         iconUrl: car,
