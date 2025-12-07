@@ -32,21 +32,23 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Chandan SIngh Chauhan",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          reply_to: form.email,
+          to_email: "chandansinghchauhan2002@gmail.com",
           message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+         
+         },
+         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
-        () => {
-          setLoading(false);
-          showAlert({
-            show: true,
-            text: "Thank you for your message 😃",
-            type: "success",
-          });
+         () => {
+            setLoading(false);
+            showAlert({
+               show: true,
+               text: "Thank you for your message 😃",
+               type: "success",
+            });
 
           setTimeout(() => {
             hideAlert(false);
@@ -137,6 +139,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+
 
       <div className='lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]'>
         <Canvas
