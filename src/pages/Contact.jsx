@@ -1,10 +1,11 @@
-import emailjs from "@emailjs/browser";
-import { Canvas } from "@react-three/fiber";
-import { Suspense, useRef, useState } from "react";
+import { useState, useRef, Suspense } from 'react'
+import emailjs from '@emailjs/browser';
+import { Canvas } from '@react-three/fiber';
+import Loader from '../components/Loader';
 
-import { Fox } from "../models";
-import useAlert from "../hooks/useAlert";
-import { Alert, Loader } from "../components";
+import Fox from '../models/Fox'
+import useAlert from '../assets/hooks/useAlert';
+import Alert from '../components/Alert';
 
 const Contact = () => {
   const formRef = useRef();
@@ -31,9 +32,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Chandan Singh Chauhan",
+          to_name: "JavaScript Mastery",
           from_email: form.email,
-          to_email: "chandansinghchauhan2002@gmail.com",
+          to_email: "sujata@jsmastery.pro",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
