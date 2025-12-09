@@ -175,7 +175,7 @@ export const projects = [
         description: 'AI-powered resume analyzer with real-time scoring, keyword insights, and improvement suggestions.',
         link: 'https://resumind-three-murex.vercel.app/auth?next=/',
     },
-    {
+    /*{
         iconUrl: car,
         theme: 'btn-back-blue',
         name: 'Car Finding App',
@@ -202,5 +202,5 @@ export const projects = [
         name: 'AI Summarizer Application',
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+    }*/
 ];
