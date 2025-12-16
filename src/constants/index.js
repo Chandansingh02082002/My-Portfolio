@@ -1,5 +1,6 @@
 import { meta, shopify, starbucks, bi,sih,logo1 } from "../assets/images";
 import {
+    cocktail,
     car,
     contact,
     css,
@@ -175,14 +176,14 @@ export const projects = [
         description: 'AI-powered resume analyzer with real-time scoring, keyword insights, and improvement suggestions.',
         link: 'https://resumind-three-murex.vercel.app/auth?next=/',
     },
-    /*{
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
     {
+        iconUrl: cocktail,
+        theme: 'btn-back-blue',
+        name: 'Velvet Pour Cocktails',
+        description: 'A visually rich, interactive cocktail showcase website built using React, JavaScript, and GSAP animations. The project focuses on delivering a smooth, premium browsing experience through carefully crafted motion design and modern UI interactions.',
+        link: 'https://velvetpour-cocktails.vercel.app/',
+    },
+    /*{
         iconUrl: snapgram,
         theme: 'btn-back-pink',
         name: 'Full Stack Instagram Clone',
